@@ -61,6 +61,12 @@ html, body {
     z-index: -1;
 }
 
+a,a:hover { text-decoration:none;}
+
+.fs14 { font-size:14px;} .fs13 { font-size:13px;}
+.list-doku ol {margin-left:0px; padding-left:20px; margin-top:10px;}
+.mar-l-10 { margin-left:10px;}
+
 .other-bg {
     position: absolute;
     width: 100%;
@@ -361,6 +367,8 @@ html, body {
     transform: translateX(50px);
     padding: 20px;
 }
+
+
 
 @media (min-height: 700px) {
     .img-holder {
